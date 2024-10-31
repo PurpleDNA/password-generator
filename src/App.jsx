@@ -70,13 +70,13 @@ function App() {
           />
           <button
             onClick={GeneratePassword}
-            className="hover:bg-myGradient hover:bg-ratata rounded-md border-black border-2 text-sm px-3 py-2 hover:border-white hover:text-white duration-300"
+            className="hover:bg-myGradient hover:bg-ratata rounded-md border-black border-2 text-sm px-3 py-2  hover:text-white duration-300"
           >
             Generate
           </button>
           <button
             onClick={copyPasswordToClipboard}
-            className=" hover:bg-myGradient hover:bg-ratata rounded-md border-black border-2 text-sm px-3 py-2 hover:text-white hover:border-white duration-300 "
+            className=" hover:bg-myGradient hover:bg-ratata rounded-md border-black border-2 text-sm px-3 py-2 hover:text-white duration-300 "
           >
             Copy
           </button>
